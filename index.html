@@ -3,70 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson02</title>
+    <title>Lesson04</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style04.css" />
   </head>
   <body>
-    <section class="lang">
-      <div class="lang-case-if">
-        <h2 class="lang-title">Решение через IF</h2>
-        <span class="lang-info">Выберите язык</span>
-        <div class="lang-button-block">
-          <button class="lang-button" onclick="chooseLanguage('ru', 'if')">
-            Русский
-          </button>
-          <button class="lang-button" onclick="chooseLanguage('en', 'if')">
-            English
-          </button>
-        </div>
-        <!-- /.lang-button-block -->
+    <section class="observe">
+      <h3 class="observe-title">Введите аргумент функции</h3>
+      <input type="text" class="observe-input" id="inputArg" />
+      <div class="observe-output">
+        <h3 class="observe-title">Результирующая строка</h3>
+        <p class="observe-result" id="resultId"></p>
       </div>
-      <!-- /.lang-case-if -->
-      <div class="lang-case-switch">
-        <h2 class="lang-title">Решение через SWITCH</h2>
-        <span class="lang-info">Выберите язык</span>
-        <div class="lang-button-block">
-          <button class="lang-button" onclick="chooseLanguage('ru', 'switch')">
-            Русский
-          </button>
-          <button class="lang-button" onclick="chooseLanguage('en', 'switch')">
-            English
-          </button>
-        </div>
-        <!-- /.lang-button-block -->
-      </div>
-      <!-- /.lang-case-switch -->
-      <!-- /.lang-case-if -->
-      <div class="lang-case-array">
-        <h2 class="lang-title">Решение через ARRAY</h2>
-        <span class="lang-info">Выберите язык</span>
-        <div class="lang-button-block">
-          <button class="lang-button" onclick="chooseLanguageRu()">
-            Русский
-          </button>
-          <button class="lang-button" onclick="chooseLanguageEn()">
-            English
-          </button>
-        </div>
-        <!-- /.lang-button-block -->
-      </div>
-      <!-- /.lang-case-array -->
-      <div class="lang-week-block">
-        <h3 class="lang-subtitle">Дни недели:</h3>
-        <ul class="lang-week-list">
-          <li id="lang-week-item--monday" class="lang-week-item"></li>
-          <li id="lang-week-item--tuesday" class="lang-week-item"></li>
-          <li id="lang-week-item--wednesday" class="lang-week-item"></li>
-          <li id="lang-week-item--thursday" class="lang-week-item"></li>
-          <li id="lang-week-item--friday" class="lang-week-item"></li>
-          <li id="lang-week-item--saturday" class="lang-week-item"></li>
-          <li id="lang-week-item--sunday" class="lang-week-item"></li>
-        </ul>
-      </div>
-      <!-- /.lang-week-block -->
+      <!-- /.observe-output -->
     </section>
-    <script src="script/script.js" defer></script>
+    <script src="script/script04.js" defer></script>
   </body>
 </html>
