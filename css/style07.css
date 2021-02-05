@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+.week {
+  width: 100%;
+  height: 100vh;
+}
+.week-wrapper {
+  width: 90%;
+  min-height: 300px;
+  margin: 40px auto;
+}
+.week-day-off {
+  font-style: italic;
+}
+.week-today {
+  font-weight: 700;
+}
