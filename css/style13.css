@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+.wrapper {
+  background-color: #008d3b;
+  color: #ffffff;
+  transition: all 0.3s;
+  padding: 100px 0 0 0;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+}
+.color-info {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.color-change {
+  width: 150px;
+  min-height: 50px;
+  font-size: 20px;
+  outline: none;
+}
+.color-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
